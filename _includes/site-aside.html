@@ -5,7 +5,7 @@
       {% include post-related.html %}
     </section>
 
-  {% elsif page.layout == "page" or page.layout == "home" or page.layout == "blog" %}
+  {% elsif page.layout == "page" or page.layout == "home" %}
     <section class="section  section--description">
       <br/><br/><br/><br/><br/><br/>
       <hr>
@@ -16,9 +16,9 @@
       <br/>
     </section>
 
-  {% elsif page.layout == "categories" %}
+  {% elsif page.layout == "categories" or page.layout == "blog" %}
     <section class="section  section--category-index">
-      <h3>Index</h3>
+      <h3>Catégories</h3>
       {% include nav-categories.html %}
     </section>
 
