@@ -203,7 +203,12 @@ body {
   }
 }
 
-
+/* Add this class for horizontal layout */
+.list--horizontal {
+  display: flex;
+  flex-wrap: wrap; /* This ensures posts wrap to a new line if there is not enough space */
+  justify-content: space-between; /* Adjust as needed to align the posts */
+}
 // Links, icons and images
 a .icon {
   transition: fill .1s;
