@@ -12,4 +12,4 @@ excerpt: "Search for a page or post"
 {% include button.html text="standalone_blog@protonmail.com" link="mailto:standalone_blog@protonmail.com" %}
 {% include nav-social.html %}
 <br/>
-{% include button.html text="PGP Public Key" link="https://github.com/Cybcrime/cybcrime.github.io/blob/main/pgp_public_key" %}
+{% include button.html text="PGP Public Key" link="https://raw.githubusercontent.com/Cybcrime/cybcrime.github.io/main/pgp_public_key" %}
