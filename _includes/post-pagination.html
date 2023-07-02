@@ -6,8 +6,6 @@
     <span class="pagination  pagination--previous">&larr; Précédent</span>
   {% endif %}
 
-  <span class="pagination  pagination--counter">Page : {{ paginator.page }} sur {{ paginator.total_pages }}</span>
-
   {% if paginator.next_page %}
     <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Suivant &rarr;</a>
   {% else %}
