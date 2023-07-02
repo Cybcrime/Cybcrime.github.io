@@ -3,6 +3,7 @@ title:
 layout: page
 aside: true
 ---
+<br/>
 # A Propos
 <hr>
 <br/>
