@@ -4,7 +4,7 @@ layout: page
 aside: true
 ---
 <br/>
-# A Propos
+# About
 <hr>
 <br/>
 <br/>
