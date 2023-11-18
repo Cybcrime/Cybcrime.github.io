@@ -8,15 +8,15 @@ aside: true
 <hr>
 <br/>
 <br/>
-**StandAlone** (*Anglicisme informatique*) : Produit utilisable seul, sans modules ou connaissances préalables. 
+**StandAlone** : A product that can be used on its own, without any prior knowledge.
 
-Bienvenue sur mon blog ! 
+Welcome to my blog!
 
-Travaillant actuellement en Cyber Threat Intelligence, et ayant fait un master en Criminologie au CNAM (Conservatoire National des Arts et Métiers) ainsi qu'un master en Relations Internationales et Cyberespace à l'ILERI (Institut Libre d'Etude des Relations Internationales), je me suis lancé dans ce blog pour partager des articles sur des sujets qui m'intéressent.
+Currently working in Cyber Threat Intelligence, I started this blog to share articles I wrote on subjects that interest me, mostly CTI, geopolitics, cybercrime and malware analysis. I wanted to reflect a "standalone" philosophy so that even neophytes can enjoy my works.
 
-Tout ce qui est publié ici est issu de mon propre travail et n'est pas affilié à une quelconque entreprise pour laquelle je travaille ou ai travaillé.
+Everything published here is my own work and is not affiliated to any company I work for or have worked for.
 
-Si vous avez des questions ou des remarques, vous pouvez me contacter par mail ou via mes réseaux sociaux affichés sur le côté.
+If you have any questions or comments, you can contact me by email or via my social media accounts displayed on the side.
 
 <br/><br/>
 
