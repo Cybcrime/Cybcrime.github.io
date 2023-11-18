@@ -1,6 +1,6 @@
 <div class="form  form--search">
   <form id="contact-form" action="">
-    <label class="label" for="search">Recherche</label>
+    <label class="label" for="search">Search</label>
     <input class="input" id="search" type="search" name="search" placeholder="ex. A propos" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
@@ -38,7 +38,7 @@
         </li>`;
     }).join('');
     if ((resultsArray.length == 0) || (this.value == '')) {
-      resultsList.innerHTML = `<p>Aucun résultat</p>`;
+      resultsList.innerHTML = `<p>No result</p>`;
     } else {
       resultsList.innerHTML = html;
     }
@@ -55,4 +55,4 @@
     }
   });
 </script>
-<noscript>Veuillez activer JavaScript pour utiliser la recherche.</noscript>
+<noscript>Please enable JavaScript to use the search function.</noscript>
