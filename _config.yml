@@ -72,7 +72,7 @@ defaults:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-lang: fr-FR # Set the site language
+lang: en # Set the site language
 title: "StandAlone" # Site name or title, also used in jekyll-seo-tag
 
 logo: "/assets/logos/logo.gif" # Site logo, also used in jekyll-seo-tag
@@ -98,13 +98,13 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-    - title: Accueil
+    - title: Home
       url: /
-    - title: A propos
+    - title: About
       url: /about/
     - title: Articles
       url: /categories/
-    - title: Recherche
+    - title: Search
       url: /search/
 
 # - title: Categories
@@ -120,7 +120,7 @@ navigation_footer:
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   LinkedIn: https://www.linkedin.com/
   GitHub: https://github.com/cybcrime
-  Twitter: https://twitter.com/cyber_crimi
+  Twitter: https://twitter.com/stdal_
   # RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
