@@ -16,7 +16,7 @@ $white: #ffffff !default;
 // Typography
 $bodytype: (
   font-family: "Karla, monospace",
-  src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+  src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype'),
   font-size: 12px,
   regular: 400,
   normal: 400,
@@ -26,7 +26,7 @@ $bodytype: (
 
 $headingtype: (
   font-family: 'Karla, monospace',
-  src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype');
+  src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype'),
   font-size: 16px,
   regular: 400,
   normal: 700,
@@ -41,5 +41,5 @@ $monospacetype: (
 ) !default;
 
 // Font import, if you're using a non-standard web font
-@import url("https://github.com/Cybcrime/cybcrime.github.io/tree/main/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf");
-@import url("https://github.com/Cybcrime/cybcrime.github.io/tree/main/assets/fonts/Karla/Karla-VariableFont_wght.ttf");
+@import url("/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf");
+@import url("/assets/fonts/Karla/Karla-VariableFont_wght.ttf");
