@@ -15,7 +15,7 @@ $white: #ffffff !default;
 
 @font-face {
   font-family: 'Karla';
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   src: url(/assets/fonts/Karla/Karla-Regular.woff2) format('woff2'),
 }
@@ -29,7 +29,7 @@ $white: #ffffff !default;
 
 @font-face {
   font-family: 'Karla';
-  font-style: italic;
+  font-style: bold;
   font-weight: 700;
   src: url(/assets/fonts/Karla/Karla-Italic.woff2) format('woff2'),
 }
@@ -55,7 +55,7 @@ $headingtype: (
   font-family: 'Karla, monospace',
   font-size: 16px,
   regular: 400,
-  normal: 700,
+  bold: 700,
   cap-height: 0.75
 ) !default;
 
