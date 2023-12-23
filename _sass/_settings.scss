@@ -13,18 +13,13 @@ $focusColour: #1bf262 !default;
 $captionColour: #1bf262 !default;
 $white: #ffffff !default;
 
-@font-face: {
-  font-family: "Karla, monospace",
-  src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype'),
+@font-face {
+  font-family: 'Karla';
   font-style: normal;
+  font-weight: 700;
+  src: url(/assets/fonts/Karla/Karla-Regular.woff2) format('woff2'),
 }
-
-@font-face: {
-  font-family: "Karla, monospace",
-  src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype'),
-  font-style: italic;
-}
-
+  
 // Typography
 $bodytype: (
   font-family: "Karla, monospace",
@@ -51,5 +46,3 @@ $monospacetype: (
 ) !default;
 
 // Font import, if you're using a non-standard web font
-@import url("/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf");
-@import url("/assets/fonts/Karla/Karla-VariableFont_wght.ttf");
