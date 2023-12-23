@@ -14,13 +14,13 @@ $captionColour: #1bf262 !default;
 $white: #ffffff !default;
 
 @font-face: {
-  font-family: "Karla, monospace";
+  font-family: "Karla, monospace",
   src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype'),
   font-style: normal;
 }
 
 @font-face: {
-  font-family: "Karla, monospace";
+  font-family: "Karla, monospace",
   src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype'),
   font-style: italic;
 }
