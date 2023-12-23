@@ -19,6 +19,13 @@ $white: #ffffff !default;
   font-weight: 700;
   src: url(/assets/fonts/Karla/Karla-Regular.woff2) format('woff2'),
 }
+
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 700;
+  src: url(/assets/fonts/Karla/Karla-Italuc.woff2) format('woff2'),
+}
   
 // Typography
 $bodytype: (
