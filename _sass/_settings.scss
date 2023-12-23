@@ -13,10 +13,21 @@ $focusColour: #1bf262 !default;
 $captionColour: #1bf262 !default;
 $white: #ffffff !default;
 
+@font-face: {
+  font-family: "Karla, monospace";
+  src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype'),
+  font-style: normal;
+}
+
+@font-face: {
+  font-family: "Karla, monospace";
+  src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype'),
+  font-style: italic;
+}
+
 // Typography
 $bodytype: (
   font-family: "Karla, monospace",
-  src: url('/assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf') format('truetype'),
   font-size: 12px,
   regular: 400,
   normal: 400,
@@ -26,12 +37,6 @@ $bodytype: (
 
 $headingtype: (
   font-family: 'Karla, monospace',
-  src: url('/assets/fonts/Karla/Karla-Regular.eot'),
-  src: url('/assets/fonts/Karla/Karla-Regular.eot') format('embedded-opentype'),
-  src: url('/assets/fonts/Karla/Karla-VariableFont_wght.ttf') format('truetype'),
-  src: url('/assets/fonts/Karla/Karla-Regular.woff') format('woff'),
-  src: url('/assets/fonts/Karla/Karla-Regular.woff2') format('woff2'),
-  src: url('/assets/fonts/Karla/Karla-Regular.svg') format('svg'),
   font-size: 16px,
   regular: 400,
   normal: 700,
